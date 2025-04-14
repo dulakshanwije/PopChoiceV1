@@ -1,0 +1,12 @@
+.button {
+    background-color: var(--color-light-green);
+    padding: 15px;
+    width: calc(100% - 40px);
+    font-family: 'RobotoSlab';
+    font-size: 30px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+    margin: 0 20px;
+    cursor: pointer;
+}

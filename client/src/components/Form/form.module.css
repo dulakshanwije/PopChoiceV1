@@ -1,0 +1,39 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 460px;
+}
+
+.inputContainer {
+    max-height: calc(100% - 70px);
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+
+.inputBox p {
+    font-family: 'RobotoSlab', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--color-white);
+    margin: 0px 20px 10px 20px;
+}
+
+.inputBox textarea {
+    font-family: 'RobotoSlab', sans-serif;
+    font-weight: 300;
+    color: var(--color-white);
+    font-size: 14PX;
+    background-color: var(--color-light-blue);
+    width: calc(100% - 40px);
+    margin: 0 20px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    resize: none;
+    overflow-y: auto;
+}
+
+/* .inputBox */

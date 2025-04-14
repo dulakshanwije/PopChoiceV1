@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'CarterOne';
+    src: url('./assets/fonts/CarterOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoSlab';
+    src: url('./assets/fonts/RobotoSlab-VariableFont_wght.ttf') format('truetype');
+}
+
+:root {
+    --color-dark-blue: #000C36;
+    --color-dark-green: #02a242;
+    --color-light-green: #51E08A;
+    --color-white: #FFFFFF;
+    --color-light-blue: #3B4877;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-white-blue);
+}

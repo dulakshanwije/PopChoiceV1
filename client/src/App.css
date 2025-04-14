@@ -1,0 +1,7 @@
+.main {
+    height: 680px;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: var(--color-dark-blue);
+}
